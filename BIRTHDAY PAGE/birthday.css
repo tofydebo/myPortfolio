@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(201, 169, 193);
+}
+    header {
+    background-color: rgb(189, 54, 155);
+    
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+.myslides {display:none;
+max-width: 100%;
+height: auto;
+
+}
+div.polaroid {
+    
+    width: 45%;
+    float: left;
+    display: block;
+    background-color: rgb(156, 142, 156);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 30px;;
+    height:auto;
+  }
+  
+  div.container {
+    text-align: right;
+    padding: 10px 20px;
+    
+  }
+ 
+
+  div.polaroid2 {
+    width: 45%;
+    float: right;
+    display: block;
+    background-color: rgb(156, 142, 156);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 30px;
+    height: auto;
+  }
+  
+  div.container2 {
+    text-align: left;
+    padding: 10px 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+    div.polaroid3 {
+  
+        width: 45%;
+        float: left;
+        display: block;
+        background-color: rgb(156, 142, 156);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        border-radius: 30px;
+      height: auto;
+    }
+      
+      div.container3 {
+
+        padding: 10px 20px;
+        margin-right: auto;
+        margin-left: auto;
+     }
+
+     div.polaroid4 {
+        width: 45%;
+        float: right;
+        display: block;
+        background-color: rgb(156, 142, 156);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        border-radius: 30px;
+        height: auto;
+          }
+      
+      div.container4 {
+        
+        padding: 10px 20px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    footer {
+      text-align: center;
+      font-size: 50px;
+    }
+     .button {
+       background-color: rgb(189, 54, 155);
+       color: white;
+       padding: 14px 40px;
+       text-align: center;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+      border-radius: 15%;
+      border: 2px solid rgb(87, 14, 69)
+       width: 100%;
+       float: right;
+       }

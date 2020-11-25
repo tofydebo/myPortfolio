@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+    <header class="w3-container w3-center w3-animate-right" style="color:beige">
+        <h1><strong> Happy Birthday,</strong> <i>Inioluwanimi Faith Onafowokan</i> 
+        <br><i>We love you!</i> </h1>
+    <hr>
+
+    
+        <p> <i>You've been nothing short of amazing!<br> You've been a sweet girl to everyone of us and this is just a medium to show how much we appreciate you!</i><br><i> Sit back, Relax, and Scroll down.</i></i></p> 
+        </header>
+        <div id="hi"> 
+             <div id="cf">
+             <img class="1" src= "INIOLUWA.jpg"/>
+     </div>
+
+
+    <div class="myslides">
+    <img src="friend.jpg">
+</div>
+
+<div class="myslides">
+<img src="goodfriends.jpg">
+</div>>
+
+<div  class="myslides">
+    <img src="friend2.jpg">
+</div>
+
+<div class="myslides">
+    <img src="tof.jpg">
+</div>
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("myslides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 6 seconds
+    }
+    </script>
+ <a href="book.html" target="_blank" class="button"><i> CLICK</i></a>
+    
+ 
+ <hr>
+
+    <footer>
+        <p> Cheers to many more years of friendship.<br><STRONG> JUNE 22, 2020</STRONG></p>
+   
+    </footer>   
