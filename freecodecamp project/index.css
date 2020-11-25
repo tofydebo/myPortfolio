@@ -1,0 +1,44 @@
+body {
+    font-family: "palatino linotype";
+    color: grey;
+     background-color: #e6f2ff;
+       background-
+   }
+     header {
+     background-image: url("https://scontent-los2-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/13406771_1732753273631455_4353233818510613025_n.jpg?_nc_cat=110&_nc_sid=2d5d41&efg=eyJpIjoidCJ9&_nc_eui2=AeH6Ny_sqZD_FMauhDF9y0VhNeMfWejhP-814x9Z6OE_7x5-fFavv3m4od5_-wSLgSjHPJGjqU3sPlj7ooHsGEgN&_nc_ohc=qG3eW9jB_IgAX81tE8I&_nc_ht=scontent-los2-1.xx&_nc_tp=14&oh=c625c2036dfa0d6e3367d26feb0b7c56&oe=5F14056F");
+     background-position: left;
+       background-size: 1000px;
+       font-color: blue;
+     }
+   
+   
+   header {
+   text-align: center;
+   }
+   
+   img {
+     height: 100px;
+     display: block;   
+     margin-left: auto;
+     margin-right: auto;
+     width: 95%;
+   }
+    
+   #img-caption {
+   text-align: center;
+   }
+   h2{
+   text-align: center;
+   }
+   section{
+   text-align: justify;
+   }
+   li{
+   margin: 10px;
+   }
+   a{
+   font-color: purple;
+   }
+   #mamma {
+   text-align: center;
+   }
